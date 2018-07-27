@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Button from '../../UI/Button/Button';
 
 class OrderSummary extends Component{
+
+    //this component can just be a functional component and not a class. For debugging process
         componentWillUpdate(){
             console.log('[OrderSummary] will update')
         }
